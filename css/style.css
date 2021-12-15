@@ -34,6 +34,7 @@ header{
     top: 0px;
     width: 100%;
     background-color: #000;
+    z-index: 999;
 }
 
 main{
@@ -60,6 +61,10 @@ main{
     color: #fff;
 }
 
+.nome_utente i{
+    cursor: pointer;
+}
+
 footer{
     position: fixed;
     bottom: 0px;
@@ -78,6 +83,7 @@ footer{
   padding: 5px;
   color: #fff;
   margin: 5px 0px;
+  cursor: pointer;
 }
 
 .box{
@@ -88,6 +94,7 @@ footer{
     align-items: center;
     font-size: 15px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .box i{
@@ -103,9 +110,14 @@ footer{
     color: #fff;
 }
 
+.box .icon_green{
+    color: #23c635
+}
+
 .btn_grande{
     align-items: center;
     padding: 20px;
     color: red;
     background-color: #4b4b4b;
+    cursor: pointer;
 }
