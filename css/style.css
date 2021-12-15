@@ -48,6 +48,16 @@ main{
 .user{
     margin: 5px;
     width: 250px;
+    position: relative;
+}
+
+.nome_utente{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #434343;
+    padding: 5px;
+    color: #fff;
 }
 
 footer{
